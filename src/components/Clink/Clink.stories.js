@@ -1,11 +1,9 @@
-import React from 'react';
-import CLink from 'index'
+import React from "react";
+import CLink from "./index";
 
 export default {
-  title: 'CLink',
-  component: CLink,
+  title: "CLink",
+  component: CLink
 };
 
-export const Default = () => (
-  <CLink link="#" type="primary" label="Button" />
-);
+export const Default = () => <CLink link="#" type="primary" label="Button" />;
